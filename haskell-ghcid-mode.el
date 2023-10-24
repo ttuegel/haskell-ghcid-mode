@@ -3,7 +3,7 @@
 ;; Copyright (C) 2023  Thomas Tuegel
 
 ;; Author: Thomas Tuegel <ttuegel@mailbox.org>
-;; Version: 17.4
+;; Version: 0.1
 ;; Package-Requires: ((emacs "25.1") (haskell-mode "17.4"))
 ;; Keywords: languages, haskell
 ;; URL: https://github.com/ttuegel/haskell-ghcid-mode
