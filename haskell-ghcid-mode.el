@@ -43,6 +43,9 @@
   ;; Reset `next-error-last-buffer' to restore focus to `haskell-ghcid-mode'
   ;; when the buffer is refreshed.
   (setq next-error-last-buffer (current-buffer))
+  ;; Re-initialize the major mode. `auto-revert-mode' calls `revert-buffer' with
+  ;; `preserve-modes' set, so that the error markers are not reset.
+  (compilation-setup)
   )
 
 ;;;###autoload
